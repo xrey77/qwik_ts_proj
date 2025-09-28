@@ -1,6 +1,6 @@
 {
-  "name": "my-qwik-empty-starter",
-  "description": "Blank project with routing included",
+  "name": "qwik_ts_proj",
+  "description": "Pepsi Cola Bottlers Inc.",
   "engines": {
     "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
   },
@@ -26,6 +26,7 @@
     "@builder.io/qwik": "^1.16.1",
     "@builder.io/qwik-city": "^1.16.1",
     "@eslint/js": "latest",
+    "@types/bootstrap": "^5.2.10",
     "@types/node": "20.19.0",
     "eslint": "9.32.0",
     "eslint-plugin-qwik": "^1.16.1",
@@ -35,7 +36,15 @@
     "typescript-eslint": "8.38.0",
     "typescript-plugin-css-modules": "latest",
     "undici": "*",
-    "vite": "7.1.4",
+    "vite": "^7.1.7",
     "vite-tsconfig-paths": "^4.2.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@types/axios": "^0.9.36",
+    "@types/jquery": "^3.5.33",
+    "axios": "^1.12.2",
+    "bootstrap": "5",
+    "jquery": "^3.7.1"
   }
 }

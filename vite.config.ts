@@ -47,6 +47,9 @@ export default defineConfig(({ command, mode }): UserConfig => {
     //     : undefined,
 
     server: {
+      hmr: {
+        overlay: false, // Set to false to disable the error overlay
+      },      
       headers: {
         // Don't cache the server response in dev mode
         "Cache-Control": "public, max-age=0",
